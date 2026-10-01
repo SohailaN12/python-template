@@ -41,6 +41,15 @@ def put_under_one(y,x=1):
 def put_under_one_alt(x):
     return f"1/{x}"
 
+def demo(name, age):
+    print(name, age)
+
+def show_employee(name, salary=9000):
+    print(f"Name: {name}salary: {salary}")
+
+     
+    
+
 def main():
     # We can store return output into variables for later use
     my_greeting = greeting("Ms. Dinko")
@@ -48,7 +57,15 @@ def main():
 
     # print(make_a_fraction(15,4))
     print(make_a_fraction(15))
-    
+
+    demo("Kelly", 25) 
+
+
+    show_employee("Ben", 1200)
+    show_employee("Jessa")
+
+   
+
 
 
 
